@@ -1,0 +1,5 @@
+Data: 2024-05-13 07:47:30, Poziom trudnoœci: 3
+Data: 2024-05-13 07:53:47, Poziom trudnoœci: 1
+Data: 2024-05-13 07:57:48, Poziom trudnoœci: 2
+Data: 2024-05-13 07:59:23, Poziom trudnoœci: 1
+Data: 2024-05-13 10:07:52, Poziom trudnoœci: 3
