@@ -1,7 +1,10 @@
 #pragma once
-#include "Kolor.h"
+#ifndef KOLOR_H
+#define KOLOR_H
+#define NOMINMAX
 #include <windows.h>
 #include <iostream>
+
 using namespace std;
 
 class Kolor {
@@ -17,3 +20,4 @@ private:
 	int kolor;
 	HANDLE consoleHandle;
 };
+#endif
