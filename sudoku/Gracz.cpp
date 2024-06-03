@@ -1,6 +1,15 @@
-#include "Gracz.h"
-#include "Sudoku.h"
+#pragma once
+#ifndef GRACZ_H
+#define GRACZ_H
 
-Gracz::Gracz(const std::string& nick) : nick(nick) {}
+#include <string>
 
-const std::string& Gracz::pobierzNick() const { return nick; }
+class Gracz {
+private:
+    std::string nick;
+public:
+    Gracz();
+    Gracz(const std::string& nick);
+    const std::string& pobierzNick() const;
+};
+#endif
